@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+/* common style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.common__background--color{
+    background-color: #E76F51;
+}
+.common__text--color{
+    color: #E76F51;
+}
+
+/* header */
+header{
+    background-color: #264653;
+    padding: 50px 10px;
+}
+/* main */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* honda and greyscale Fetured Bikes  */
+.honda__greyscale img{
+    filter: grayscale(100%);
+}
+.honda__greyscale:hover img{
+    filter: grayscale(0%);
+}
+/* Happy Clients says  */
+.clients__card--image{
+    height: 149px;
+    width: 149px;
+}
+
+
