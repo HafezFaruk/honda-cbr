@@ -5,14 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .common__background--color{
     background-color: #E76F51;
 }
 .common__text--color{
     color: #E76F51;
 }
-
 /* header */
 header{
     background-color: #264653;
@@ -34,5 +32,13 @@ body{
     height: 149px;
     width: 149px;
 }
-
-
+/* contact */
+.contact a{
+    text-decoration: none;
+}
+.contact> a> i {
+    font-size: 3rem;
+}
+.contact> a> i:hover {
+    color: white;
+}
