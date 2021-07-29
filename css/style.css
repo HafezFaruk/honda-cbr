@@ -34,9 +34,6 @@ body{
     width: 149px;
 }
 /* contact */
-.contact a{
-    text-decoration: none;
-}
 .contact> a> i {
     font-size: 3rem;
 }
